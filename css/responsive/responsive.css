@@ -1,0 +1,107 @@
+@media screen and (max-width:600px) {
+    .container {
+        width: 100%;
+    }
+
+    .header__list .item1 {
+        display: none;
+    }
+
+    .usericon {
+        display: block;
+    }
+
+    .homepage {
+        position: relative;
+        background-image: url(../../img/banner.png);
+        background-position: top right;
+        background-repeat: no-repeat;
+        background-size: 72% auto !important;
+    }
+
+    .roow {
+        display: block;
+    }
+    .homepage__text__heading {
+        font-size: 34px !important;
+        text-align: center;
+    }
+    .homepage__text{
+        width:100% !important;
+        padding: 0 !important;
+        text-align: center;
+    }
+    .headerpage__img{
+        margin: 0 !important;
+    }
+    .explorepage{
+        margin: 0;
+    }
+    .explorepage .row{
+        display: block;
+    }
+    .about{
+        padding: 0 !important;
+    }
+    .about .row{
+        display: block;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    .about__tittle{
+        font-size: 26px;
+    line-height: 1.4em;
+    }
+    .feature .row{
+        display: block;
+        text-align: center;
+    }
+    .feature__items .row{
+        display: block;
+    }
+    .feature__lists .row{
+        display: flex;
+    }
+    .feature__items .feature__items__item1{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .conect .row{
+        display: block;
+    }
+    .online__learning .container__item1{
+        width: 100%;
+    }
+    .online__learning .slider__img1{
+        width: 100% ;
+    }
+    .online__learning .slider__theme{
+        bottom: -92%;
+    left: -16%;
+    }
+    .online__learning .slider__text{
+        padding: 65px 32px 30px 40px
+    }
+    .blog .blog__course1{
+        width: 100%;
+    }
+    footer .footer__wraper{
+        display: block;
+        text-align: center;
+    }
+    footer .footer__wraper h3{
+        margin: 0;
+        width: 100%;
+        font-size: 24px;
+    }
+    footer .footer__wraper .wraper__btn{
+        margin-top: 34px;
+    }
+    footer .footer__part2 .footer__base{
+        width: 100%;
+    } 
+    footer .footer__part2 .footer__base2{
+        width: 100%;
+    } 
+}

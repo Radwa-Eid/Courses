@@ -1,0 +1,129 @@
+.homepage {
+    overflow: hidden;
+    position: relative;
+    background-image: url(../../img/banner.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 150px 0 190px;
+}
+
+.homepage__shapes {
+    position: absolute;
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.shapes__num1 {
+    position: absolute; 
+    left: 0;
+    right: 0;
+    width: 2%;
+    height: auto;
+    bottom: 200px;
+    margin: auto;
+    text-align: center;
+    animation: animationFramesOne 20s infinite linear;
+}
+
+@keyframes animationFramesOne {
+    0% {
+        transform: translate(0, 0) rotate(0);
+    }
+
+    20% {
+        transform: translate(73px, -1px) rotate(36deg);
+    }
+
+    40% {
+        transform: translate(141px, 72px) rotate(72deg);
+    }
+
+    60% {
+        transform: translate(83px, 122px) rotate(108deg);
+    }
+
+    80% {
+        transform: translate(-40px, 72px) rotate(144deg);
+    }
+
+    100% {
+        transform: translate(0, 0) rotate(0);
+    }
+}
+
+.shapes__num2 {
+    position: absolute;
+    left: 140px;
+    top: 45%;
+    animation: animationFramesTwo 20s infinite linear;
+}
+
+@keyframes animationFramesTwo{
+    0% {
+        transform: translate(0,0) rotate(0) scale(1);
+    }
+    20% {
+        transform: translate(73px,-1px) rotate(36deg) scale(.9);
+    }
+    40% {
+        transform: translate(141px,72px) rotate(72deg) scale(1);
+    }
+    60% {
+        transform: translate(83px,122px) rotate(108deg) scale(1.2);
+    }
+    80% {
+        transform: translate(-40px,72px) rotate(144deg) scale(1.1);
+    }
+    100% {
+        transform: translate(0,0) rotate(0) scale(1);
+    }
+}
+.shapes__num3{
+    position: absolute;
+    left: 60px;
+    top: 40%;
+    animation: animationFramesThree 20s infinite linear;
+}
+@keyframes animationFramesThree{
+    0% {
+        transform: translate(165px,-179px);
+    }
+    100%{
+        transform: translate(-346px,617px);
+    }
+}
+.shapes__num4{
+    position: absolute;
+    left: 60px;
+    bottom: 80px;
+    animation: animationFramesTwo 20s infinite linear;
+}
+.homepage__text {
+    width: 43%;
+    padding-top: 70px;
+}
+
+.homepage__text__container {
+    position: relative;
+}
+
+.homepage__text__heading {
+    color: #2C234D;
+    font-size: 60px;
+    line-height: 72px;
+    font-weight: 800;
+    margin: 0 20px 20px 0;
+}
+
+.homepage__text__para {
+    color: #5D5A67;
+    margin: 0px 0px 40px 0px;
+}
+
+.headerpage__img {
+    margin-right: -200px;
+}

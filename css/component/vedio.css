@@ -1,0 +1,97 @@
+.vedio {
+    background-image: url(../../img/cta-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* height: 500px; */
+}
+
+.vedio__container {
+    padding: 90px 0px 0px 0px;
+    margin: auto;
+}
+
+.vedio__heading {
+    color: #fff;
+    font-size: 34px;
+    line-height: 44px;
+    margin: 0 0 61px;
+    text-align: center;
+}
+
+.vedio__heading h2 {
+    font-size: 34px;
+    margin-bottom: 16px;
+}
+
+.vedio__heading p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.vedio__link {
+    padding: 20px 35px;
+    color: #5838fc;
+    background-color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+    transition: all .4s ease;
+}
+
+.vedio__link:hover {
+    box-shadow: 0 20px 30px 0 rgb(26 8 119 / 24%);
+}
+
+.vedio__item {
+    position: relative;
+    margin: 0px 0px -250px 0px;
+    display: block;
+    width: 100%;
+}
+
+.vedio__img{
+    background-image: url(../../img/video-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    height: 500px;
+    box-shadow: 0 40px 70px 0 rgb(11 2 55 / 16%);
+    position: relative;
+    z-index: 5;
+    margin: 0;
+    border: 5px solid #fff;
+}
+.vedio__icon{
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 80px;
+    color: #5838fc;
+    display: inline-block;
+    position: absolute;
+    z-index: 3;
+    inset: 0;
+    margin: auto;
+    animation-name: vedio-animation;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    box-shadow: 0 40px 70px 0 rgb(11 2 55 / 16%);
+}
+@keyframes vedio-animation {
+    0%{
+        box-shadow: 0 0 0  rgb(255 255 255 / 30%);
+    }
+    50%{
+        box-shadow:0 0 0 40px transparent;
+    }
+    100%{
+        box-shadow:0 0 0 0 transparent;
+    }
+}

@@ -1,0 +1,12 @@
+.contact__btn{
+    padding: 9px 19px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+    background: #5838fc;
+    border-radius: 3px;
+    transition: all .4s ease;
+}
+.contact__btn:hover{
+    box-shadow: 0 10px 20px 0 rgb(37 14 154 / 24%);
+}

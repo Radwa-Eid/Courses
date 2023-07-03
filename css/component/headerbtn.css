@@ -1,0 +1,13 @@
+.headerpage__btn{
+    padding: 21px 28px;
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+    background: #5838fc;
+    border-radius: 3px;
+    transition: all .4s ease;;
+}
+.headerpage__btn:hover{
+    box-shadow: 0 20px 30px 0 rgb(26 8 119 / 24%);
+}

@@ -1,0 +1,110 @@
+.conect{
+    padding: 338px 0px 100px 0px;
+}
+.about__heading{
+    color: #2c234d;
+}
+.about__heading h2{
+    margin-bottom: 15px;
+}
+.contact__info{
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.container__item1{
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.contact__item1{
+    position: relative;
+    margin: 0 0 30px;
+    background: #f6f5f8;
+    border-radius: 10px;
+    padding: 38px 30px 44px 170px;
+    transition: all .4s ease;
+}
+.contact__date{
+    position: absolute;
+    left: 50px;
+    top: 40px;
+    font-size: 40px;
+    color: #5838fc;
+    line-height: .8;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.contact__date span{
+    display: block;
+    font-size: 16px;
+    color: #2c234d;
+    font-weight: 600;
+    margin: 6px 0 0;
+    text-align: right;
+}
+.contact__item1 p i{
+    font-size: 16px;
+    margin-right: 7px;
+    position: relative;
+    top: 2px;
+}
+.contact__item1 p{
+    font-family: inherit;
+    font-size: 14px;
+    line-height: .8;
+    color: #5d5a67;
+    margin: 0 0 16px;
+}
+.contact__item1 h4{
+    color: #2c234d;
+    margin: 20px 0px 20px 0px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+}
+.contact__item1:hover{
+    background-color: #fff;
+    box-shadow: 0 30px 50px 0 rgb(11 2 55 / 10%);
+}
+.contact__item1::after{
+    content: "";
+    position:absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    border-width: 30px 30px 0px 0px;
+    border-color: #5838fc #fff #fff #fff;
+    border-style: solid;
+    border-radius:15px 0 0 0;
+    opacity: 0;
+    transition: all 0.4s ease;
+}
+
+.contact__item1:hover::after{
+    opacity: 1;
+}
+
+.contact__btn1{
+    width: 100%;
+    text-align: center;
+}
+.contact__btn1 a{
+    display: inline-block;
+}
+.contact__btn1 a i{
+    transition: all linear 0.3s;
+    left: 0;
+    /* font-size: 20px; */
+    position: relative;
+    top: 1px;
+    margin-left: 10px;
+}
+.contact__btn1 a:hover{
+    box-shadow:none;
+}
+.contact__btn1 a:hover i{
+    color: #EFEEED;
+    border-color: #8b5bff;
+    left: 15px;
+}

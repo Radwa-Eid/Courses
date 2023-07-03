@@ -1,0 +1,27 @@
+.about{
+    margin: 30px 0;
+    padding: 60px 0px 98px 0px;
+}
+.about__text{
+    width: 50%;
+    margin: 0px 0px 0px 50px;
+    align-content: center;
+    align-items: center;
+}
+.about__text__container{
+    padding: 10px;
+}
+.about__tittle{
+    margin: 0px 0px 20px 0px;
+    font-size: 34px;
+    line-height: 44px;
+    color: #2c234d;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 700;
+}
+.about__question{
+    margin: 0px 0px 20px 0px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #5838fc;
+}

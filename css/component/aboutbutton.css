@@ -1,0 +1,10 @@
+.about__btn{
+    display: inline-block;
+    margin-top: 40px;
+    padding: 9px 32px;
+}
+.about__btn:hover{
+    background-color: white;
+    color: #070101;
+    box-shadow: 0 20px 30px 0 rgb(26 8 119 / 24%);
+}
